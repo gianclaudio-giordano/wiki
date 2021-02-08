@@ -649,8 +649,8 @@ If the item is a bag, this field controls the number of slots the bag has.
 
 ### StatsCount
 
-When an item has entries in [stat\_type](#item_template-stat_type), this must be updated to display those entries
-(Unknown how this works)
+When an item has entries in [stat\_type](#item_template-stat_type), this must be updated according to how many stats are affected by the item.
+Use 0 if the item does not affect any. Spell Resistances do NOT count towards this value as they have specific fields. (e.g item #17691)
 
 ### stat\_type
 
